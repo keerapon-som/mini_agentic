@@ -1,0 +1,200 @@
+[
+    {
+        "command": "ls",
+        "description": [
+            "List directory contents",
+            "Display files and directories",
+            "Show detailed information with -l option",
+            "List hidden files with -a option"
+        ]
+    },
+    {
+        "command": "cd",
+        "description": [
+            "Change the current directory",
+            "Navigate to a different directory",
+            "Go to the home directory with no arguments",
+            "Use '..' to move up one directory"
+        ]
+    },
+    {
+        "command": "pwd",
+        "description": [
+            "Print the name of the current working directory",
+            "Show the full path of the current directory",
+            "Useful for confirming your location in the file system",
+            "Can be used in scripts to get the current directory"
+        ]
+    },
+    {
+        "command": "touch",
+        "description": [
+            "Create a file",
+            "Update the access and modification times of a file",
+            "Create multiple files at once",
+            "Useful for creating empty files quickly"
+        ]
+    },
+    {
+        "command": "mkdir",
+        "description": [
+            "Create a directory",
+            "Make multiple directories at once",
+            "Create parent directories with -p option",
+            "Useful for organizing files into folders"
+        ]
+    },
+    {
+        "command": "rm",
+        "description": [
+            "Remove files or directories",
+            "Delete files permanently",
+            "Use -r option to remove directories recursively",
+            "Be careful as this command cannot be undone"
+        ]
+    },
+    {
+        "command": "mv",
+        "description": [
+            "Move or rename files or directories",
+            "Move files to a different directory",
+            "Rename a file or directory",
+            "Useful for organizing files"
+        ]
+    },
+    {
+        "command": "cp",
+        "description": [
+            "Copy files or directories",
+            "Duplicate files",
+            "Use -r option to copy directories recursively",
+            "Preserve file attributes with -p option"
+        ]
+    },
+    {
+        "command": "cat",
+        "description": [
+            "Concatenate and display the content of files",
+            "View the content of a file",
+            "Combine multiple files into one",
+            "Useful for quickly viewing file contents"
+        ]
+    },
+    {
+        "command": "more",
+        "description": [
+            "Display the content of files one screen at a time",
+            "View large files page by page",
+            "Press space to go to the next page",
+            "Useful for reading long files"
+        ]
+    },
+    {
+        "command": "less",
+        "description": [
+            "Display the content of files one screen at a time",
+            "Similar to more but with more features",
+            "Navigate with arrow keys",
+            "Press q to quit"
+        ]
+    },
+    {
+        "command": "head",
+        "description": [
+            "Display the first lines of files",
+            "Show the beginning of a file",
+            "Use -n option to specify the number of lines",
+            "Useful for previewing file contents"
+        ]
+    },
+    {
+        "command": "tail",
+        "description": [
+            "Display the last lines of files",
+            "Show the end of a file",
+            "Use -n option to specify the number of lines",
+            "Useful for monitoring log files"
+        ]
+    },
+    {
+        "command": "grep",
+        "description": [
+            "Search for a pattern in files",
+            "Find matching lines in files",
+            "Use regular expressions for complex searches",
+            "Highlight matches with --color option"
+        ]
+    },
+    {
+        "command": "find",
+        "description": [
+            "Search for files in a directory hierarchy",
+            "Locate files based on criteria",
+            "Search by name, size, date, and more",
+            "Execute commands on found files"
+        ]
+    },
+    {
+        "command": "wc",
+        "description": [
+            "Count lines, words, and characters in files",
+            "Display file statistics",
+            "Use -l option to count lines only",
+            "Useful for analyzing file content"
+        ]
+    },
+    {
+        "command": "sort",
+        "description": [
+            "Sort lines in files",
+            "Arrange lines alphabetically or numerically",
+            "Use -r option for reverse order",
+            "Useful for organizing data"
+        ]
+    },
+    {
+        "command": "uniq",
+        "description": [
+            "Report or omit repeated lines",
+            "Remove duplicate lines from sorted files",
+            "Use -c option to count occurrences",
+            "Useful for data deduplication"
+        ]
+    },
+    {
+        "command": "cut",
+        "description": [
+            "Remove sections from each line of files",
+            "Extract columns from a file",
+            "Use -d option to specify a delimiter",
+            "Useful for processing structured data"
+        ]
+    },
+    {
+        "command": "paste",
+        "description": [
+            "Merge lines of files",
+            "Combine files line by line",
+            "Use -d option to specify a delimiter",
+            "Useful for joining data from multiple files"
+        ]
+    },
+    {
+        "command": "diff",
+        "description": [
+            "Compare files line by line",
+            "Show differences between files",
+            "Use -u option for unified format",
+            "Useful for tracking changes in files"
+        ]
+    },
+    {
+        "command": "tar",
+        "description": [
+            "Manipulate tape archives",
+            "Create and extract tar archives",
+            "Use -c option to create an archive",
+            "Use -x option to extract an archive"
+        ]
+    }
+]
