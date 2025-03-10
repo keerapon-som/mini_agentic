@@ -1,13 +1,13 @@
 package entities
 
 type VectorDocument struct {
-	Command      string         `json:"command"`
-	DocumentData []DocumentData `json:"document_data"`
+	Command      string       `json:"command"`
+	DocumentData DocumentData `json:"document_data"`
 }
 
 type RawDocument struct {
-	Command     string   `json:"command"`
-	Description []string `json:"description"`
+	Command     string `json:"command"`
+	Description string `json:"description"`
 }
 
 type DocumentData struct {

@@ -21,11 +21,18 @@ func main() {
 
 	// TurnRawToVectorDocument(agi)
 
-	resp, err := agi.GetClosetDocument("I would like to get my cuurent path of folder")
+	// resp, avgDistance, err := agi.GetClosetDocument("I would like to go to other directory")
+	// if err != nil {
+	// 	panic(err)
+	// }
+	resp, avgDistance, err := agi.GetClosetDocumentMultiCal("I would like to go to other directory", 10)
 	if err != nil {
 		panic(err)
 	}
 
 	fmt.Println("Command is : ", resp.Command)
-	fmt.Println("Document is : ", resp.DocumentData[0].Description)
+	fmt.Println("Document is : ", resp.DocumentData.Description)
+	fmt.Println("Distance is : ", avgDistance)
 }
+
+// 0.8397428422016603
