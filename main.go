@@ -21,10 +21,11 @@ func main() {
 
 	// TurnRawToVectorDocument(agi)
 
-	resp, err := agi.GetClosetDocument("Please remove some file")
+	resp, err := agi.GetClosetDocument("I would like to get my cuurent path of folder")
 	if err != nil {
 		panic(err)
 	}
+
 	fmt.Println("Command is : ", resp.Command)
 	fmt.Println("Document is : ", resp.DocumentData[0].Description)
 }
